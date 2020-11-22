@@ -29,11 +29,11 @@ public class Bot extends ListenerAdapter {
     
     Random rng = new Random(); 
     
-    
+
     
     public static void main(String[] args) throws LoginException {
         JDABuilder
-                .createLight("NzgwMDUzMDg4MzcwNjg4MDIw.X7pfDA.u7nY3ZIwwV1JmH1db2SnxMwU0iU",
+                .createLight("",
                         GatewayIntent.GUILD_MESSAGES, GatewayIntent.DIRECT_MESSAGES)
                 .addEventListeners(new Bot()).setActivity(Activity.watching("your mum playing with herself")).build();
     }
